@@ -15,6 +15,8 @@
 # ---
 
 # %%
+
+# %%
 import requests,os, pandas as pd
 from io import StringIO
 import time
@@ -90,6 +92,8 @@ lexeme["Nachbar"]    = {"Genitiv": ["Nachbars","Nachbarn"], "Dativ": ["Nachbar",
 #    go_through_one_lexem(lexem, lexeme[lexem])
 
 
+https://www.dwds.de/r/?format=kwic&limit=100&view=csv&output=inline&
+    q=dem+Präsident&corpus=zeit&date-start=1946&date-end=2018&sort=date_desc&seed=
 
 
 
